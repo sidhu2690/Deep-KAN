@@ -20,7 +20,7 @@ The SplineLinearLayer is a PyTorch module that combines a linear layer with a sp
 
 ### Example usage:
 
-```python
+```
 import torch.nn as nn
 from deepkan import SplineLinearLayer
 
@@ -48,7 +48,7 @@ The DeepKAN class is a PyTorch module that implements a neural network with Kolm
 
 ### Example usage:
 
-```python
+```
 import torch.nn as nn
 from deepkan import DeepKAN
 
@@ -63,10 +63,10 @@ The ChebyshevKANLayer is a PyTorch module that implements a Chebyshev Kernel Act
 - `input_dim` (int): Dimensionality of the input data.
 - `output_dim` (int): Dimensionality of the output data.
 - `degree` (int): Degree of the Chebyshev polynomial.
-
+```
 ### Example usage:
 
-```python
+```
 import torch.nn as nn
 from deepkan import ChebyshevKANLayer
 
