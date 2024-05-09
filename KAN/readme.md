@@ -55,6 +55,7 @@ from deepkan import DeepKAN
 input_dim = 28 * 28  # Flattened MNIST image size
 hidden_layers = [64, 10]  # Hidden layer dimensions
 model = DeepKAN(input_dim, hidden_layers)
+```
 
 ## ChebyshevKANLayer
 
@@ -63,7 +64,7 @@ The ChebyshevKANLayer is a PyTorch module that implements a Chebyshev Kernel Act
 - `input_dim` (int): Dimensionality of the input data.
 - `output_dim` (int): Dimensionality of the output data.
 - `degree` (int): Degree of the Chebyshev polynomial.
-```
+
 ### Example usage:
 
 ```
@@ -82,4 +83,4 @@ class MODEL(nn.Module):
         x = self.chebykan2(x)
         x = self.chebykan3(x)
         return x
-
+```
