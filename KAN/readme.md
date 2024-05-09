@@ -77,7 +77,6 @@ class MODEL(nn.Module):
         self.chebykan1 = ChebyshevKANLayer(1, 32, 4)
         self.chebykan2 = ChebyshevKANLayer(32, 16, 4)
         self.chebykan3 = ChebyshevKANLayer(16, 1, 4)
-
     def forward(self, x):
         x = self.chebykan1(x)
         x = self.chebykan2(x)
