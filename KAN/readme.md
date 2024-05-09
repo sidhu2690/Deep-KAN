@@ -44,7 +44,6 @@ The DeepKAN class is a PyTorch module that implements a neural network with Kolm
 - `grid_epsilon` (float, optional): Epsilon value for the grid. Default is 0.02.
 - `grid_range` (list, optional): Range of the grid. Default is [-1, 1].
 
-```
 
 ### Example usage:
 
