@@ -4,8 +4,7 @@ I have implemented KAN using B-splines in a more efficient manner to enhance its
 I will soon upload the results of all my experiments to provide a comprehensive overview of KAN's performance across different datasets.
 
 ### Do check the discussion page 
-[here]([https://pypi.org/project/Deep-KAN/](https://github.com/sidhu2690/Deep-KAN/discussions/2)).
-[here](https://pypi.org/project/Deep-KAN/).
+[here](https://github.com/sidhu2690/Deep-KAN/discussions/2).
 
 # Deep-KAN
 
